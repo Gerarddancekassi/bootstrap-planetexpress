@@ -1,14 +1,17 @@
+html{
+  margin: 0;
+}
+
 body {
   font-size: 1.2em;
   font-family: poppins, "sans-serif";
   overflow-y: auto;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
-:root {
-  --bg-white: white;
-  --txt-color: white;
-  --bg-dark: #121212;
+.ship-cont{
+
 }
 
 #to-hover,#to-hover2, #to-hover3 {
