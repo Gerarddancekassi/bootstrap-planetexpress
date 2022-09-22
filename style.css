@@ -1,12 +1,12 @@
-html, body {
-  height: 100%;
-  width: 100%;
+#to-hover{
+  transition-property: transform;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
 }
 
-#ship {
-  width: 1015px;
-  padding-bottom: 20em;
-  height: 508px;
-  background-repeat: no-repeat;
-  background-position: center;
+#to-hover:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.4);
+
 }
