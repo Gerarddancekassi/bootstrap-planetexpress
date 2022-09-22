@@ -1,14 +1,13 @@
 body {
   font-size: 1.2em;
   font-family: poppins, "sans-serif";
-  overflow-y: auto;
   overflow-x: hidden;
+  height: 100%;
 }
 
-:root {
-  --bg-white: white;
-  --txt-color: white;
-  --bg-dark: #121212;
+#ship-cont{
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 #to-hover,#to-hover2, #to-hover3 {
