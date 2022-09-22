@@ -1,17 +1,17 @@
-html{
-  margin: 0;
-}
 
 body {
   font-size: 1.2em;
   font-family: poppins, "sans-serif";
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: clip;
   -webkit-overflow-scrolling: touch;
+  width: 100vw;
+  margin: 0;
 }
 
-.ship-cont{
 
+.ship-cont{
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 #to-hover,#to-hover2, #to-hover3 {
