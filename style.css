@@ -18,18 +18,6 @@ body {
   border-radius: 50%;
 }
 
-
-body {
-  padding-top: 60px;
-}
-@media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
-}
-
-
-
 #to-hover p,#to-hover2 p , #to-hover3 p{
   padding-bottom: 1em;
   font-size: 15px;
