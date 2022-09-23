@@ -15,9 +15,7 @@ body {
 }
 
 #fry, #bender, #leela
- {
-
-  border: 2px solid #000;
+{
   border-radius: 50%;
 }
 
@@ -28,7 +26,6 @@ body {
   font-size: 15px;
 }
 #to-hover,#to-hover2, #to-hover3 {
-  border: 2px solid #000;
   height: 25em;
   border-radius: 25px !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
