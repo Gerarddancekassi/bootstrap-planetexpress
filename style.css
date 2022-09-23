@@ -8,6 +8,13 @@ body {
   margin: 0;
 }
 
+strong{
+  color: #CE2E25FF;
+}
+
+.greenish{
+    color: #11A753;
+}
 
 .ship-cont{
   overflow-x: hidden;
@@ -54,4 +61,50 @@ body {
   margin-left: auto !important;
   margin-right: auto !important;
   max-width: fit-content;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+  #to-hover,#to-hover2, #to-hover3 {
+    background-color: #1a1a1a !important;
+    color: #fff !important;
+  }
+  #footer-bottom {
+    background-color: #11A753 !important;
+    color: black !important;
+  }
+
+  footer .container {
+    background-color: #3a3a3a !important;
+  }
+  footer .container a {
+    color: #fff !important;
+  }
+  footer .container td{
+    color: #fff !important;
+  }
+
+  #ship-cont p{
+    color: #656565 !important;
+  }
+
+  .greenish{
+    color: #79FB8DFF !important;
+  }
+
+  .navbar{
+    background-color: #1a1a1a !important;
+  }
+
+    .navbar a {
+        color: #fff !important;
+    }
+
+    .navbar .navbar-toggler{
+      background-color: #3a3a3a;
+    }
+
 }
